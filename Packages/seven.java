@@ -22,14 +22,14 @@ class C implements B
     }
 
 public class seven
+{
+    public static void main(String[] args)
     {
-        public static void main(String[] args)
-        {
-            C obj = new C();
-            int r1 = obj.add(5, 2);
-            int r2 = obj.sub(10, 5);
+        C obj = new C();
+        int r1 = obj.add(5, 2);
+        int r2 = obj.sub(10, 5);
 
-            System.out.println(r1); 
-            System.out.println(r2); 
-        }
+        System.out.println(r1); 
+        System.out.println(r2); 
     }
+}
